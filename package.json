@@ -1,0 +1,35 @@
+{
+	"name": "url-shortening-service",
+	"version": "1.0.0",
+	"description": "Build a URL Shortener API that helps shorten long URLS.",
+	"main": "index.js",
+	"scripts": {
+		"dev": "tsnd --respawn --clear src/app.ts",
+		"build": "rimraf ./dist && tsc",
+		"start": "npm run build && node dist/app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cvelasquezr8/url-shortening-service.git"
+	},
+	"author": "Carlos Velasquez",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/cvelasquezr8/url-shortening-service/issues"
+	},
+	"homepage": "https://github.com/cvelasquezr8/url-shortening-service#readme",
+	"devDependencies": {
+		"@types/express": "^5.0.1",
+		"@types/node": "^22.13.16",
+		"prisma": "^6.5.0",
+		"rimraf": "^6.0.1",
+		"ts-node-dev": "^2.0.0",
+		"typescript": "^5.8.2"
+	},
+	"dependencies": {
+		"@prisma/client": "^6.5.0",
+		"dotenv": "^16.4.7",
+		"env-var": "^7.5.0",
+		"express": "^5.1.0"
+	}
+}
