@@ -33,7 +33,7 @@ This is a simple RESTful API that allows users to shorten long URLs. It provides
 Clone the project repository:
 
 ```bash
-git clone https://github.com/yourusername/url-shortening-service.git
+git clone https://github.com/cvelasquezr8/url-shortening-service.git
 cd url-shortening-service
 ```
 
